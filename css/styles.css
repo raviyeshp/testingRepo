@@ -1,0 +1,148 @@
+
+body{
+  font-family: 'Montserrat';
+}
+#title{
+  background-color: #ff4c68;
+  color: #fff;
+}
+#h1Section1{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  font-weight: bolder;
+  line-height: 1.5;
+}
+.container-fluid{
+  padding: 3% 15% 7%;
+}
+.navbar{
+  margin-bottom: 4.5rem;
+  padding-left: 0;
+  padding-right: 0;
+}
+/*Navigation bar*/
+.navbar-brand{
+  font-family: 'Ubuntu';
+  font-size: 2.5rem;
+  font-weight: bold;
+
+}
+.nav-item{
+  padding: 0 18px;
+}
+.nav-link{
+  font-size: 1.0rem;
+  font-weight: lighter;
+}
+
+/* Download button */
+.download-button{
+  margin: 5% 3% 0 0;
+}
+
+/* Title Image */
+.title-image{
+  width: 60%;
+  transform: rotate(25deg);
+  margin-left: 40px;
+  position: absolute;
+}
+/* Section 2 */
+#features{
+  background-color: #fff;
+  padding: 7% 15%;
+  position: relative;
+  z-index: 1;
+}
+h3{
+  font-family: 'Montserrat';
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+p{
+  font-size: 0.7rem;
+  color: #8f8f8f;
+}
+.icon{
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+.icon:hover{
+  color: #ff4c68;
+}
+/* Testimonials Section */
+#testimonials{
+  background-color: #ef8172;
+
+  color: #fff;
+}
+
+h2{
+  font-family: 'Montserrat';
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+.testimonial-image{
+  width: 10%;
+  border-radius: 50%;
+  margin: 20px;
+}
+
+#press{
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+.carousel-item{
+  padding: 8% 15%;
+}
+#pricing{
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+#pricing h2{
+  font-family: 'Montserrat';
+  font-size: 2rem;
+  padding-bottom: 3%;
+}
+#pricing h3{
+  font-family: 'Montserrat';
+  font-size: 1.2rem;
+}
+#pricing p{
+  line-height: 0.5;
+}
+.pricing-row{
+  padding-top: 3%;
+}
+#cta{
+  background-color: #ef8172;
+  padding: 7% 15%;
+  text-align: center;
+}
+#cta h3{
+  color: #fff;
+  font-family: 'Montserrat';
+  font-size: 2.5rem;
+}
+#footer{
+  padding: 4% 8%;
+  text-align: center;
+}
+.icon1{
+  padding: 5px 5px 15px 5px;
+}
+@media (max-width:1027px) {
+  .title-image{
+    transform: rotate(0);
+    position: static;
+    padding-top: 3%;
+  }
+  #h1Section1{
+    text-align: center;
+  }
+}
